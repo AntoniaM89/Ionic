@@ -1,0 +1,243 @@
+#container {
+    text-align: center;
+  
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  #container strong {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  #container p {
+    font-size: 16px;
+    line-height: 22px;
+  
+    color: #8c8c8c;
+  
+    margin: 0;
+  }
+  
+  #container a {
+    text-decoration: none;
+  }
+  
+  .circulo {
+    width: 100%;
+    height:70%;
+    background-color:#f7f7f7; /* Cambia el color de fondo según tus preferencias */
+    border-top-left-radius: 124% 25%;
+    border-top-right-radius: 124% 25%;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .mini_circulo {
+    background: #2fa2a4;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: -2%;
+    top: 20%;
+    z-index: -1;
+  }
+  
+  .mini_circulo2 {
+    background: #2fa2a4;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: -89%;
+    top: 34%;
+    z-index: 0;
+  }
+  
+  .mini_circulo3 {
+    background: #2fa2a4;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: -2%;
+    top: 48%;
+  }
+  
+  .mini_circulo4 {
+    background: #2fa2a4;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: -45%;
+    top:70%;
+  }
+  
+  .mini_circulo5 {
+    background: #2fa2a4;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: -78%;
+    top: 65%;
+  }
+  
+  ion-content{
+    --background:#2fa2a4;
+    font-family: Arial, sans-serif;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  
+    height: 170px;
+    width: 400px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -60%;
+  }
+  
+  b {
+    font-size: 196%;
+    width: 100%;
+    position:relative;
+  }
+  
+  .ripple-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    position: relative;
+    overflow: hidden;
+  
+    border: 1px solid #ddd;
+  
+    user-select: none;
+  
+    width: 100%;
+    height: 55px;
+    border-radius: 40px;
+    top: 40%;
+    font-size: 140%;
+    background: #cacaca;
+    margin: 4%;
+    right: 1%;
+    text-align: center;
+    z-index: 2;
+  }
+  
+  .ripple-parent1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    position: relative;
+    overflow: hidden;
+  
+    border: 1px solid #ddd;
+  
+    user-select: none;
+  
+    width: 100%;
+    height: 55px;
+    border-radius: 40px;
+    top: 45%;
+    font-size: 140%;
+    background: #cacaca;
+    margin: 4%;
+    right: 1%;
+    z-index: 2;
+  }
+
+  .ripple-parent2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    position: relative;
+    overflow: hidden;
+  
+    border: 1px solid #ddd;
+  
+    user-select: none;
+  
+    width: 100%;
+    height: 55px;
+    border-radius: 40px;
+    top: 47%;
+    font-size: 140%;
+    background: #cacaca;
+    margin: 4%;
+    right: 1%;
+    z-index: 2;
+  }
+  
+  
+  .custom-parent {
+    color: #000000;
+  }
+  
+  .cuadrado {
+    background: rgb(38, 40, 40);
+    width: 96%;
+      height: 55px;
+      position: relative;
+      top: 36%;
+      border-radius: 40px;
+      right: -2%;
+  }
+  
+  h1 {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: normal;
+    margin: 10px 0 16px;
+    position: relative;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  ion-item, ion-input{
+    --background: #cacaca;
+
+  }
+
+  ion-list, ion-button  {
+    position: relative;
+    top:33%;
+    color:black;
+    --background:#000000;
+  }
+
+  ion-button{
+    color: white;
+  }
+  
+  ion-list, ion-button .a {
+    position: relative;
+    top:37%;
+    color:black;
+    --background:#000000;
+  }
+
+  ion-avatar{
+    top:8%;
+    left:34%;
+    width: 35% ;
+    height: 15% ;
+    position: relative;
+  }
