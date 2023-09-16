@@ -6,15 +6,19 @@ import { IonicModule } from '@ionic/angular';
 
 import { LoginPageRoutingModule } from './login-routing.module';
 
+
+import { MatSlideToggleModule } from '@angular/material/slide-toggle'; // Importa MatSlideToggleModule
 import { LoginPage } from './login.page';
 
 @NgModule({
+  declarations: [LoginPage],
   imports: [
+    CommonModule,
+    MatSlideToggleModule, 
     CommonModule,
     FormsModule,
     IonicModule,
     LoginPageRoutingModule
   ],
-  declarations: [LoginPage]
 })
 export class LoginPageModule {}

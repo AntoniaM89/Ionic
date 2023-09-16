@@ -230,3 +230,20 @@ ion-avatar{
   height: 15% ;
   position: relative;
 }
+ion-list mat-slide-toggle{
+  position: relative;
+  left: 30%;
+  --mdc-switch-selected-hover-handle-color:#4a599e;
+  --mdc-switch-selected-track-color: #6f62f0;
+  --mdc-switch-selected-handle-color: #cacaca;
+  --mdc-switch-selected-focus-state-layer-color: #2c2fd6;
+  --mdc-switch-selected-handle-color: #5e53c4;
+  --mdc-switch-selected-hover-state-layer-color: #3b4db4; 
+  --mdc-switch-selected-pressed-state-layer-color: #482a99; 
+  --mdc-switch-selected-focus-handle-color: #355394; 
+  --mdc-switch-selected-hover-handle-color: #1f2eaf;
+  --mdc-switch-selected-pressed-handle-color: #100e88; 
+  --mdc-switch-selected-focus-track-color: #7062f0;
+  --mdc-switch-selected-hover-track-color: #7762f0;
+  --mdc-switch-selected-pressed-track-color: #9462f0;
+}
